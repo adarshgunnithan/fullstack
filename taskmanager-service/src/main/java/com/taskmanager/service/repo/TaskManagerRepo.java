@@ -16,6 +16,10 @@ import com.taskmanager.service.entities.Task;
  *
  */
 //@RepositoryRestResource
+/**
+ * @author Adarsh
+ *Repo using spring JPA //yet to dos
+ */
 public interface TaskManagerRepo extends JpaRepository<Task, Long> {
 
 	
